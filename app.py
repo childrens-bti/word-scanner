@@ -10,6 +10,12 @@ import os
 st.set_page_config(page_title="Word Scanner", layout="wide")
 st.title("🔍 Word Scanner for DOCX and PDF")
 st.markdown("Upload a Word or PDF document to search for words within the document.")
+st.markdown("""
+**Sources of Banned Word Lists:**
+- [Thoughtcrime Checker](https://thoughtcrime-checker.com/banned-words.html)
+- [PEN America Banned Words List](https://pen.org/banned-words-list/)
+- [Grant Writing & Funding: Banned and Trigger Words](https://grantwritingandfunding.com/banned-and-trigger-words-in-federal-grant-writing-in-the-trump-administration-2-0/)
+""")
 
 # --- Helper Functions ---
 def extract_text_from_docx(file):
