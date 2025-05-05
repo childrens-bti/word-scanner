@@ -170,8 +170,6 @@ Black
 black
 black and latinx
 Black and Latinx
-breastfeed + people
-breastfeed + person
 breastfeeding people
 breastfeeding person
 Cancer Moonshot
@@ -182,8 +180,8 @@ carbon pricing
 carbon sequestration
 CEC
 changing climate
-chestfeed + people
-chestfeed + person
+chestfeed people
+chestfeed person
 chestfeeding people
 chestfeeding person
 clean energy
@@ -406,7 +404,6 @@ orientation
 pansexual
 PCB
 peanut allergies
-people + uterus
 people of color
 people with a uterus
 people-centered care
