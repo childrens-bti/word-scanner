@@ -7,8 +7,9 @@ import re
 import pandas as pd
 import os
 
-st.set_page_config(page_title="Banned Word Scanner", layout="wide")
-st.title("🔍 Banned Word Scanner for DOCX and PDF")
+st.set_page_config(page_title="Word Scanner", layout="wide")
+st.title("🔍 Word Scanner for DOCX and PDF")
+st.markdown("Upload a Word or PDF document to search for words within the document.")
 
 # --- Helper Functions ---
 def extract_text_from_docx(file):
@@ -46,7 +47,6 @@ def generate_word_doc(results):
         p.add_run("Location: ").bold = True
         p.add_run(f"{entry['start_pos']} - {entry['end_pos']}\n")
         p.add_run("Context: ").bold = True
-        # Highlight banned word in context
         context = entry['context']
         match = re.search(r"\*\*(.+?)\*\*", context)
         if match:
@@ -93,6 +93,14 @@ use_default = st.sidebar.checkbox("Use default banned words", value=True)
 text_input = st.sidebar.text_area("Enter additional banned words (one per line or quoted phrase)")
 text_file = st.sidebar.file_uploader("Or upload a .txt file with banned words", type=["txt"])
 
+# Optional: View default list
+with st.sidebar.expander("📄 View default banned word list"):
+    if DEFAULT_BANNED_WORDS:
+        st.code("\n".join(DEFAULT_BANNED_WORDS))
+    else:
+        st.info("No default words loaded.")
+
+# --- Main File Upload ---
 uploaded_file = st.file_uploader("Upload a DOCX or PDF file", type=["docx", "pdf"])
 
 if uploaded_file and (use_default or text_input or text_file):
