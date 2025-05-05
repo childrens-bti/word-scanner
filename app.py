@@ -4,6 +4,7 @@ import fitz  # PyMuPDF
 import io
 import re
 import pandas as pd
+import os
 
 st.set_page_config(page_title="Banned Word Scanner", layout="wide")
 st.title("🔍 Banned Word Scanner for DOCX and PDF")
@@ -18,8 +19,7 @@ def extract_text_from_pdf(file):
     return "\n".join([page.get_text() for page in pdf])
 
 def highlight_banned_words(text, banned_words):
-    # Escape and join into regex
-    pattern = r"\\b(" + "|".join(map(re.escape, banned_words)) + r")\\b"
+    pattern = r"\b(" + "|".join(map(re.escape, banned_words)) + r")\b"
     matches = list(re.finditer(pattern, text, flags=re.IGNORECASE))
     
     spans = []
@@ -30,19 +30,49 @@ def highlight_banned_words(text, banned_words):
         spans.append({"word": m.group(), "context": context})
     return spans
 
+def parse_banned_words(file):
+    if file is None:
+        return []
+    content = file.read().decode("utf-8")
+    return parse_banned_words_from_string(content)
+
+def parse_banned_words_from_string(content):
+    words = []
+    for line in content.splitlines():
+        line = line.strip()
+        if line.startswith('"') and line.endswith('"'):
+            words.append(line.strip('"'))
+        elif line:
+            words.append(line)
+    return words
+
+def load_default_banned_words_from_file(path="default_words.txt"):
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return parse_banned_words_from_string(f.read())
+    return []
+
+# --- Precompiled Banned Words ---
+DEFAULT_BANNED_WORDS = load_default_banned_words_from_file()
+
 # --- Sidebar Inputs ---
 st.sidebar.header("⚙️ Options")
-banned_input = st.sidebar.text_area("Enter banned words (one per line)")
+use_default = st.sidebar.checkbox("Use default banned words", value=True)
+text_input = st.sidebar.text_area("Enter additional banned words (one per line or quoted phrase)")
+text_file = st.sidebar.file_uploader("Or upload a .txt file with banned words", type=["txt"])
 
 uploaded_file = st.file_uploader("Upload a DOCX or PDF file", type=["docx", "pdf"])
 
-if uploaded_file and banned_input:
-    banned_words = [w.strip() for w in banned_input.splitlines() if w.strip()]
-    
+if uploaded_file and (use_default or text_input or text_file):
+    custom_words = [w.strip() for w in text_input.splitlines() if w.strip()]
+    file_words = parse_banned_words(text_file)
+
+    banned_words = DEFAULT_BANNED_WORDS if use_default else []
+    banned_words += custom_words + file_words
+
     if uploaded_file.name.endswith(".docx"):
         text = extract_text_from_docx(uploaded_file)
     elif uploaded_file.name.endswith(".pdf"):
-        # Reopen file for reading as it was read by fitz
         uploaded_file.seek(0)
         text = extract_text_from_pdf(uploaded_file)
     else:
@@ -66,5 +96,4 @@ if uploaded_file and banned_input:
         st.success("No banned words found in the document.")
 
 elif uploaded_file:
-    st.info("Please enter at least one banned word in the sidebar to scan the document.")
-
+    st.info("Please enter or enable at least one banned word list to scan the document.")
