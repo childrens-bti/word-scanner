@@ -1,5 +1,6 @@
 import streamlit as st
 from docx import Document
+from docx.shared import Pt, RGBColor
 import fitz  # PyMuPDF
 import io
 import re
@@ -21,14 +22,45 @@ def extract_text_from_pdf(file):
 def highlight_banned_words(text, banned_words):
     pattern = r"\b(" + "|".join(map(re.escape, banned_words)) + r")\b"
     matches = list(re.finditer(pattern, text, flags=re.IGNORECASE))
-    
+
     spans = []
     for m in matches:
         span_start = max(0, m.start() - 40)
         span_end = min(len(text), m.end() + 40)
         context = text[span_start:span_end].replace(m.group(), f"**{m.group()}**")
-        spans.append({"word": m.group(), "context": context})
+        spans.append({
+            "word": m.group(),
+            "start_pos": m.start(),
+            "end_pos": m.end(),
+            "context": context
+        })
     return spans
+
+def generate_word_doc(results):
+    doc = Document()
+    doc.add_heading('Banned Words Report', level=1)
+    for entry in results:
+        p = doc.add_paragraph()
+        p.add_run("Word: ").bold = True
+        p.add_run(entry['word'] + "\n")
+        p.add_run("Location: ").bold = True
+        p.add_run(f"{entry['start_pos']} - {entry['end_pos']}\n")
+        p.add_run("Context: ").bold = True
+        # Highlight banned word in context
+        context = entry['context']
+        match = re.search(r"\*\*(.+?)\*\*", context)
+        if match:
+            before, word, after = context.split("**", 2)
+            r = p.add_run(before)
+            r = p.add_run(word)
+            r.font.highlight_color = 3  # Yellow highlight
+            r = p.add_run(after)
+        else:
+            p.add_run(context)
+    buffer = io.BytesIO()
+    doc.save(buffer)
+    buffer.seek(0)
+    return buffer
 
 def parse_banned_words(file):
     if file is None:
@@ -81,7 +113,7 @@ if uploaded_file and (use_default or text_input or text_file):
 
     st.subheader("📄 Full Text Preview")
     with st.expander("Show Document Text"):
-        st.text_area("Extracted Text", value=text[:5000], height=200)
+        st.text_area("Extracted Text", value=text[:10000], height=300)
 
     st.subheader("🚫 Banned Words Found")
     results = highlight_banned_words(text, banned_words)
@@ -92,6 +124,9 @@ if uploaded_file and (use_default or text_input or text_file):
 
         csv = df.to_csv(index=False).encode("utf-8")
         st.download_button("Download Results as CSV", data=csv, file_name="banned_word_hits.csv")
+
+        word_buffer = generate_word_doc(results)
+        st.download_button("Download Results as Word Document", data=word_buffer, file_name="banned_word_hits.docx", mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document")
     else:
         st.success("No banned words found in the document.")
 
