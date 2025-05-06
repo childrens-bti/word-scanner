@@ -43,15 +43,36 @@ def highlight_banned_words(text, banned_words):
         })
     return spans
 
-def generate_word_doc(results):
+def generate_word_doc(results, full_text, banned_words):
     doc = Document()
-    doc.add_heading('Banned Words Report', level=1)
+    doc.add_heading('Full Document with Highlighted Banned Words', level=1)
+
+    # Highlight full text
+    p = doc.add_paragraph()
+    pattern = re.compile(r"\b(" + "|".join(map(re.escape, banned_words)) + r")\b", flags=re.IGNORECASE)
+    last_end = 0
+    for match in pattern.finditer(full_text):
+        # Add text before the match
+        if last_end < match.start():
+            p.add_run(full_text[last_end:match.start()])
+        # Add highlighted match
+        highlighted = p.add_run(full_text[match.start():match.end()])
+        highlighted.font.highlight_color = 3  # Yellow highlight
+        last_end = match.end()
+    # Add any remaining text
+    p.add_run(full_text[last_end:])
+
+    # Add a page break and summary context
+    doc.add_page_break()
+    doc.add_heading('Context Summary of Banned Words', level=2)
     for entry in results:
         p = doc.add_paragraph()
         p.add_run("Word: ").bold = True
-        p.add_run(entry['word'] + "\n")
+        p.add_run(entry['word'] + "
+")
         p.add_run("Location: ").bold = True
-        p.add_run(f"{entry['start_pos']} - {entry['end_pos']}\n")
+        p.add_run(f"{entry['start_pos']} - {entry['end_pos']}
+")
         p.add_run("Context: ").bold = True
         context = entry['context']
         match = re.search(r"\*\*(.+?)\*\*", context)
@@ -63,6 +84,7 @@ def generate_word_doc(results):
             r = p.add_run(after)
         else:
             p.add_run(context)
+
     buffer = io.BytesIO()
     doc.save(buffer)
     buffer.seek(0)
@@ -139,7 +161,7 @@ if uploaded_file and (use_default or text_input or text_file):
         csv = df.to_csv(index=False).encode("utf-8")
         st.download_button("Download Results as CSV", data=csv, file_name="banned_word_hits.csv")
 
-        word_buffer = generate_word_doc(results)
+        word_buffer = generate_word_doc(results, text, banned_words)
         st.download_button("Download Results as Word Document", data=word_buffer, file_name="banned_word_hits.docx", mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document")
     else:
         st.success("No banned words found in the document.")
@@ -148,6 +170,6 @@ elif uploaded_file:
     st.info("Please enter or enable at least one banned word list to scan the document.")
 
 # --- Footer Note ---
-st.markdown("**Note:** Uploaded files and generated results are encrypted and are not stored on the server. All processing is done in-memory and data is only retained during your session.")
+st.markdown("**Note:** Uploaded files and generated results are not stored on the server. All processing is done in-memory and data is only retained during your session.")
 st.markdown("---")
 st.markdown("If you find an issue or bug, please submit it [here](https://github.com/childrens-bti/word-scanner).")
