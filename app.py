@@ -68,11 +68,9 @@ def generate_word_doc(results, full_text, banned_words):
     for entry in results:
         p = doc.add_paragraph()
         p.add_run("Word: ").bold = True
-        p.add_run(entry['word'] + "
-")
+        p.add_run(entry['word'] + "\n")
         p.add_run("Location: ").bold = True
-        p.add_run(f"{entry['start_pos']} - {entry['end_pos']}
-")
+        p.add_run(f"{entry['start_pos']} - {entry['end_pos']}\n")
         p.add_run("Context: ").bold = True
         context = entry['context']
         match = re.search(r"\*\*(.+?)\*\*", context)
