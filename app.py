@@ -148,5 +148,6 @@ elif uploaded_file:
     st.info("Please enter or enable at least one banned word list to scan the document.")
 
 # --- Footer Note ---
+st.markdown("**Note:** Uploaded files and generated results are encrypted and are not stored on the server. All processing is done in-memory and data is only retained during your session.")
 st.markdown("---")
 st.markdown("If you find an issue or bug, please submit it [here](https://github.com/childrens-bti/word-scanner).")
