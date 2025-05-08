@@ -1,133 +1,18 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 abortion
 accessibility
 accessible
 activism
+activist
 activists
+advance diversity
+advance inclusivity
+advance the diversity
+advancing diversity
+advancing inclusive
 advocacy
 advocate
 advocates
+affirmative action
 affirming care
 affordable home
 affordable housing
@@ -135,10 +20,21 @@ agricultural water
 agrivoltaics
 air pollution
 all-inclusive
+alliance for diversity
+ally
 allyship
 alternative energy
+anti black
+anti black racism
+anti racism
+anti racist
+anti white
 anti-racism
+antiblack
+antiblack racism
+antiracism
 antiracist
+antiwhite
 asexual
 assigned at birth
 assigned female at birth
@@ -146,17 +42,26 @@ assigned male at birth
 at risk
 autism
 aviation fuel
+background inclusivity
 backgrounds
 barrier
 barriers
 belong
+bi cultural
 bias
+bias toward
+bias towards
 biased
 Biased toward
 biased toward
+biased towards
 biases
 biases toward
 Biases towards
+biases towards
+bicultural
+bigot
+bigotry
 bioenergy
 biofuel
 biogas
@@ -165,13 +70,42 @@ biologically male
 biomethane
 bipoc
 BIPOC
+bipocx
 bisexual
 Black
 black
 black and latinx
 Black and Latinx
+black communities
+black community
+black cultural
+black culture
+black cultures
+black female
+black females
+black indigenous and latinx
+black indigenous and other
+black indigenous latinx
+black indigenous other
+black individual
+black individuals
+black intellectualism
+black lives matter
+black male
+black males
+black men
+black minorities
+black minority
+black people
+black person
+black thought
+black voices
+black women
+blackness
 breastfeeding people
 breastfeeding person
+broaden diversity
+broaden the diversity
 Cancer Moonshot
 carbon emissions mitigation
 carbon footprint
@@ -184,17 +118,30 @@ chestfeed people
 chestfeed person
 chestfeeding people
 chestfeeding person
+cisgender
+cisnormative
+cisnormativity
 clean energy
 clean fuel
 clean power
 clean water
 climate
 climate accountability
+climate action
 climate change
+climate conscious
+climate consciousness
 climate consulting
 climate crisis
+climate equality
+climate equity
+climate injustice
+climate injustices
+climate justice
+climate justices
 climate model
 climate models
+climate research
 climate resilience
 climate risk
 climate science
@@ -203,94 +150,268 @@ climate smart forestry
 climate variability
 climate-change
 climatesmart
+colored communities
+colored community
+colored female
+colored females
+colored individual
+colored individuals
+colored male
+colored males
+colored men
+colored minorities
+colored minority
+colored people
+colored person
+colored voices
+colored women
 commercial sex worker
+commitment to diversity
 community
 community diversity
 community equity
+community inclusivity
 confirmation bias
 contaminants of environmental concern
 continuum
 Covid-19
+critical race theory
+cultural activism
+cultural activist
+cultural activists
+cultural advocacy
+cultural advocate
+cultural and ethnic
+cultural and racial
+cultural appropriation
+cultural appropriations
+cultural bias
 cultural competence
+cultural competency
+cultural connections
 cultural differences
 cultural heritage
+cultural humility
+cultural inequalities
+cultural inequality
+cultural inequities
+cultural inequity
+cultural injustice
+cultural injustices
+cultural justice
 Cultural relevance
 cultural relevance
+cultural segregation
 cultural sensitivity
 culturally
 culturally appropriate
+culturally attuned
+culturally biased
+culturally relevant
 culturally responsive
+culturally sensitive
+culturally sustainable
+culturally sustaining
+culture and ethnicity
+culture and race
+cultures and ethnicities
+cultures and races
+de colonization
+de colonize
+de colonized
+de colonizing
+de segregate
+de segregated
+de segregates
+de segregation
+decolonization
+decolonize
+decolonized
+decolonizing
 definition
 DEI
+dei
 DEIA
 DEIAB
 DEIJ
+deij
+desegregate
+desegregated
+desegregates
+desegregation
 diesel
 dietary guidelines/ultraprocessed foods
 disabilities
 disability
 disabled
 disadvantaged
+discriminate
 discriminated
 discrimination
 discriminatory
 discussion of federal policies
 disparity
 diverse
+diverse background
 diverse backgrounds
 diverse communities
 diverse community
 diverse group
 diverse groups
+diverse individual
+diverse individuals
+diverse status
+diverse statuses
+diverse voices
 diversified
 diversify
 diversifying
 diversity
+diversity and equity
 diversity and inclusion
+diversity and inclusivity
+diversity awareness
 diversity equity
 diversity/equity efforts
+divisiveness
+eco cultural
+ecocultural
 EEJ
 EJ
 elderly
 electric vehicle
 emissions
+emphasis on diversity
+emphasize diversity
+emphasizing diversity
+encourage diversity
+encouraging diversity
 energy conversion
+enhance diversity
 enhance the diversity
 enhancing
 enhancing diversity
 entitlement
+environment conscious
+environment consciousness
+environmental conscious
+environmental consciousness
+environmental equality
+environmental equity
+environmental governance
 environmental justice
 environmental quality
+environmental social
+environmentalgovernance
+environmentally conscious
+environmentalsocial
+equal opportunities
 equal opportunity
+equalities
 equality
 equitable
+equitable and inclusive
 equitableness
+equities
 equity
 equity and inclusion
+esg
+esg effort
+esg efforts
+esg initiative
+esg initiatives
 ethanol
+ethnic and cultural
+ethnic and racial
+ethnic bias
+ethnic communities
+ethnic community
+ethnic cultural
+ethnic culture
+ethnic cultures
+ethnic diversity
+ethnic equity
+ethnic identities
+ethnic identity
+ethnic individual
+ethnic individuals
+ethnic minorities
+ethnic minority
+ethnic people
+ethnic person
+ethnic racism
+ethnic segregation
+ethnic voices
+ethnical racism
+ethnicities and cultures
+ethnicities and races
 ethnicity
+ethnicity and culture
+ethnicity and race
 evidence-based
 excluded
 exclusion
+exclusive
 expression
+feel seen and heard
 female
+female voices
 females
+femininity
 feminism
+feminist
+feministic
 fetus
 field drainage
+fluid identity
 fluoride
+foster diversity
 fostering
+fostering diversity
+fostering inclusive
 fostering inclusivity
+fostering the diversity
 fuel cell
 gay
 GBV
 gbv
 gender
+gender acceptance
+gender affirmation
+gender affirming
+gender and sexual
+gender appreciation
 gender based
 gender based violence
+gender binary
+gender discrimination
+gender disparities
+gender disparity
 gender diversity
+gender dysmorphia
+gender dysphoria
+gender fluid
+gender fluidity
 gender identity
 gender ideology
+gender inclusive
+gender inclusivity
+gender marginalized
+gender minorities
+gender minority
+gender neural
+gender non binary
+gender non conforming
+gender nonbinary
+gender nonconforming
+gender oppression
+gender preference
+gender preferences
+gender spectrum
+gender stereotypes
+gender transition
+gender transitioning
+gender typical
 gender-affirming care
 gender-based
 gendered
@@ -302,9 +423,13 @@ GHG monitoring
 global warming
 green
 green infrastructure
+green new deal
+green society
 greenhouse gas emission
 greenhouse gas emissions
 groundwater pollution
+group equity
+group inclusivity
 groups
 Gulf of Mexico
 H5N1/bird flu
@@ -314,10 +439,32 @@ hates peech
 hatespeech
 health disparity
 health equity
+heterosexual
 hispanic
+hispanic communities
+hispanic community
+hispanic cultural
+hispanic culture
+hispanic cultures
+hispanic female
+hispanic females
+hispanic individual
+hispanic individuals
+hispanic male
+hispanic males
+hispanic men
+hispanic minorities
 hispanic minority
 Hispanic minority
+hispanic people
+hispanic person
+hispanic voices
+hispanic women
+historical racism
 historically
+historically male
+historically racist
+historically white
 housing affordability
 housing efficiency
 hydrogen vehicle
@@ -328,24 +475,64 @@ implicit bias
 implicit biases
 inclusion
 inclusive
+inclusive language
 inclusive leadership
 inclusiveness
 inclusivity
+inclusivity and diversity
 increase
 increase diversity
 increase the diversity
+increases diversity
+increases the diversity
+increasing diversity
+increasing the diversity
 indigenous
+indigenous communities
 indigenous community
 indigenous community/people
+indigenous cultural
+indigenous culture
+indigenous cultures
+indigenous female
+indigenous females
+indigenous individual
+indigenous individuals
+indigenous male
+indigenous males
+indigenous men
+indigenous minorities
+indigenous minority
+indigenous people
+indigenous person
+indigenous voices
+indigenous women
 inequalities
 inequality
 inequitable
 inequities
 inequity
 injustice
+injustices
 institutional
+institutional racism
+institutionalize
+institutionalized
+institutionalized racism
+institutionally
+institutionally racist
 integration
+inter cultural
+inter culturally
+inter racial
+inter racially
+intercultural
+interculturally
+intergenerational trauma
+interracial
+interracially
 intersectional
+intersectional feminism
 intersectionality
 intersex
 issues concerning pending legislation
@@ -355,51 +542,125 @@ justice40
 key groups
 key people
 key populations
+lack of diversity
+latina communities
+latina community
+latina female
+latina females
+latina individual
+latina individuals
+latina male
+latina males
+latina men
+latina minorities
+latina minority
+latina people
+latina person
+latina voices
+latina women
 Latinx
 latinx
+latinx communities
+latinx community
+latinx cultural
+latinx culture
+latinx cultures
+latinx female
+latinx females
+latinx individual
+latinx individuals
+latinx male
+latinx males
+latinx men
+latinx minorities
+latinx minority
+latinx people
+latinx person
+latinx voices
+latinx women
 lesbian
 LGBT
 lgbt
 LGBTQ
 lgbtq
+lgbtq+
 lgbtqia
 low-emission vehicle
 low-income housing
+male dominant
 male dominated
 male-dominated
+marginalization
 marginalize
 marginalized
 marijuana
+masculine
+masculinity
 measles
 membrane filtration
 men who have sex with men
 mental health
 methane emissions
+micro aggression
+micro aggressions
+micro aggressive
+micro aggressiveness
+microaggression
+microaggressions
+microaggressive
+microaggressiveness
 microplastics
 migrant
 minorities
 minority
 minority serving institution
+mis gender
+misgender
+misogynistic
+misogyny
 most risk
 MSI
 msm
 MSM
+multi cultural
+multi culturally
+multi ethnic
+multi ethnically
 multicultural
+multiculturally
+multiethnic
+multiethnically
 Mx
 Native American
 NCI budget
+net zero
 net-zero
+netzero
+non binary
+non binary gender
+non black
+non conforming gender
+non white
 non-binary
 non-conforming
 nonbinary
+nonbinary gender
+nonblack
 noncitizen
+nonconforming gender
 nonpoint source pollution
+nonwhite
 nuclear energy
 nuclear power
 obesity
 opioids
+oppressed
+oppressed gender
+oppressed genders
+oppressed sexualities
 oppression
 oppressive
+oppressiveness
 orientation
 pansexual
 PCB
@@ -412,18 +673,36 @@ person-centered care
 PFAS
 PFOA
 photovoltaic
+poc
+pocx
 polarization
+polarize
 political
+politicization
+politicize
 pollution
 pollution abatement
 pollution remediation
+predominately male
+predominately white
 prefabricated housing
+preferred gender
+preferred identity
+preferred sex
 pregnant people
 pregnant person
 pregnant persons
 prejudice
+prejudices
+primarily male
+primarily white
 privilege
+privileged
+privileged white
 privileges
+pro black
+pro white
+problack
 promote
 promote diversity
 promoting
@@ -431,37 +710,116 @@ promoting diversity
 pronoun
 pronouns
 prostitute
+prowhite
 pyrolysis
 QT
 queer
+queer theory
 race
+race and culture
 race and ethnicity
+race based
+racebased
+races and cultures
+races and ethnicities
 racial
+racial and cultural
+racial and ethnic
+racial bias
+racial biases
+racial disparities
+racial disparity
 racial diversity
 racial equity
 racial identity
+racial inequalities
 racial inequality
+racial inequities
 racial inequity
+racial injustice
+racial injustices
 racial justice
+racial minorities
+racial minority
+racial oppression
+racial prejudice
+racial prejudices
+racial segregation
+racial socialization
+racial solidarity
+racial stereotypes
+racial violence
 racially
+racially and culturally
+racially bias
+racially biased
+racially oppressed
 racism
+racist
+reparation
+reparations
 responsive
 runoff
 rural water
 safe drinking water
+safe space
+safe spaces
 science-based
 sediment remediation
+segregated
+segregated cultures
+segregated ethnicities
+segregated ethnicity
+segregated race
+segregated races
 segregation
+self identify
 self-assessed
 sense of belonging
+sense of belongingness
 sex
+sex change
+sex preference
+sex transition
+sexism
+sexist
+sexual discrimination
+sexual disparities
+sexual disparity
+sexual identity
+sexual minorities
+sexual minority
+sexual preference
 sexual preferences
+sexualities
 sexuality
+social activism
+social activist
+social activists
+social advocacy
+social advocate
+social bias
+social biases
+social environmental
+social inequalities
+social inequality
+social inequities
+social inequity
+social injustice
+social injustices
 social justice
+social justice activism
+social justice advocacy
+social justice advocate
 social vulnerability
+socialenvironmental
+socially biased
+socially relevant
 socio cultural
+socio culturally
 socio economic
 sociocultural
+socioculturally
 socioeconomic
 socioeconomic status
 soil pollution
@@ -469,22 +827,55 @@ solar energy
 solar power
 special populations
 status
+statuses
 stem cell or fetal tissue research
 stereotype
 stereotypes
+stereotypical
+stereotyping
+straight white
+structural inequality
+structural inequity
+structural racism
+structurally racist
 subsidized housing
+support diversity
+supporting diversity
 sustainable construction
+system of oppression
+systematic oppression
+systematically oppressed
 systemic
+systemic oppression
+systemic racism
+systemical
 systemically
+systemically oppressed
+systemically racist
+systems of oppression
+systems of power
 they/them
 tile drainage
+tokenistic
+tokensim
 topics of federal investigations
 topics that have received recent attention from Congress
 topics that have received widespread or critical media attention
+toxic masculinity
 trans
+trans cultural
+trans ethnic
+transcultural
+transethnic
 transexual
 transgender
+transgenderism
 transitional housing
+transitioning gender
+transitioning sex
+transjustice
+transphobia
+transphobic
 transsexual
 trauma
 traumatic
@@ -493,18 +884,39 @@ two-spirit
 unconscious bias
 unconsciousbias
 under appreciated
+under appreciation
+under privilege
+under privileged
+under representation
 under represented
 under served
+under serving
+under valued
+under valuing
 underappreciated
+underappreciation
+underprivilege
 underprivileged
 underrepresentation
 underrepresented
+underrepresented gender
 underserved
+underserving
 understudied
 undervalued
+undervaluing
+unequal opportunities
+unequal opportunity
+unjust
 vaccines
 victim
+victimhood
+victimized
 victims
+voices are acknowledged
+voices heard
+voices matter
+voices of women
 vulnerable
 vulnerable populations
 water collection
@@ -516,7 +928,30 @@ water pollution
 water quality
 water storage
 water treatment
+welcoming environment
+white colonialism
+white colonization
+white colonizer
+white colonizers
+white female
+white females
+white fragility
+white historically
+white male
+white males
+white men
+white nationalism
+white nationalist
+white people
+white person
+white privilege
+white serving
+white supremacy
+white women
+whiteness
 wind power
 woman
 women
+women and gender
 women and underrepresented
+women underrepresented

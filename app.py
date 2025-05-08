@@ -15,6 +15,7 @@ st.markdown("""
 - [Thoughtcrime Checker](https://thoughtcrime-checker.com/banned-words.html)
 - [PEN America Banned Words List](https://pen.org/banned-words-list/)
 - [Grant Writing & Funding: Banned and Trigger Words](https://grantwritingandfunding.com/banned-and-trigger-words-in-federal-grant-writing-in-the-trump-administration-2-0/)
+- [U.S. Senate Report of NSF Banned Words](https://www.commerce.senate.gov/services/files/4BD2D522-2092-4246-91A5-58EEF99750BC)
 """)
 
 # --- Helper Functions ---
