@@ -1,6 +1,7 @@
 # 🔍 Word Scanner for DOCX and PDF
 
 This application scans Word (`.docx`) and PDF documents for trigger or banned words compiled from various published sources.
+The application is hosted on Python Streamlit cloud [here](https://word-search.streamlit.app/).
 
 ## 📚 Banned Word Sources
 - [Thoughtcrime Checker](https://thoughtcrime-checker.com/banned-words.html)  
